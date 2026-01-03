@@ -1,9 +1,14 @@
-name = input("Enter Name :")
-gender = input("Enter Gender :")
+# Grade Student bassed on the mark
 
-if(name == "Rushi" and gender == "M"):
-    print("Yes")
-elif (name == "Pooja" and gender == 'F'):
-    print("Yes")
+mark = int(input("Enter Student Mark :"))
+
+if(mark >= 90):
+    print("Grade A")
+elif (mark >= 80 and mark < 90):
+    print("Grade B")
+elif (mark >= 70 and mark < 80):
+    print("Grade C")
+elif(mark >= 60 and mark < 60):
+    print("Grade D")
 else:
-    print("Condition not Match")
+    print("Fail") 
