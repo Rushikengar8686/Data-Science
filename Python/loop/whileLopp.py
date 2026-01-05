@@ -20,8 +20,18 @@
 
 # Print the element of the following list using loop
 # 1,4,9,16,25,36,49,64,81,100
-list = [ 1,4,9,16,25,36,49,64,81,100]
+# list = [ 1,4,9,16,25,36,49,64,81,100]
+# index = 0
+# while index < len(list):
+#     print(list[index])
+#     index +=1
+
+
+# Search for a number x in tuple using loop
+list = [ 1,4,9,16,25,36,49,64,81,100,34]
+x = 34
 index = 0
 while index < len(list):
-    print(list[index])
-    index +=1
+    if(list[index] == x):
+        print(index)
+    index += 1
